@@ -2,7 +2,7 @@
 
 Image mesh is a small script that loads an image and creates a blender
 2D mesh of the same dimmension, where the dark parts of the image are
-holes, whre all the mesh edges are orthogonal . And because an image 
+holes, and all the mesh edges are orthogonal. And because an image 
 is worth a thousand words, first the the image used as the source for 
 the script:
 
@@ -12,6 +12,8 @@ And the resulting blender mesh:
 
 ![alt tag](docs/blender-output.png)
 
+This script was created to render grids, so if you need a mesh that follows
+a curved edge interpolating the mesh, it is not what you are looking for.
 
 Usage
 =====
